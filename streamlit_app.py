@@ -2,9 +2,10 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
-st.title("📄 Document question answering")
+st.title("📄 ASPIRE10X-Document question answering")
 st.write(
     "Welcome to the ASPIRE10X Document Query App! "
+    
     "📄 Simply upload your document below and ask me anything about it – I'm here to assist you with AI-powered answers. "
     
      "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
